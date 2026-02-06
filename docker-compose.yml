@@ -23,8 +23,8 @@ services:
       WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
       WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
       WORDPRESS_CONFIG_EXTRA: |
-        define('WP_HOME', 'https://wp.glassgallery.my.id');
-        define('WP_SITEURL', 'https://wp.glassgallery.my.id');
+        define('WP_HOME', 'https://lumina.glassgallery.my.id');
+        define('WP_SITEURL', 'https://lumina.glassgallery.my.id');
         define('FORCE_SSL_ADMIN', true);
         /* HTTPS Detection */
     volumes:
